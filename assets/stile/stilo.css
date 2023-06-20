@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+:root {
+    --color: rgb(204, 16, 195);
+    --background-color: rgb(7, 192, 238);
+}
+.logo-navegador{
+    display: flex;
+    justify-content: space-between;
+}
+/* nav{
+    font-size: 1.3rem;
+    background-color: var(--background-color);
+    width: 100%;
+    height: 5vh;
+    display: flex;
+} */
+/* nav img{
+    width: 5vw;
+    height: 5vh;
+    background-color: var(--background-color);
+    display: flex;
+} */
+/* nav a{
+    color: var(--color);
+    font-style: oblique;
+    background-color: var(--background-color);
+    text-decoration: none;
+    display: flex;
+} */
+.piedep p{
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--color);
+    background-color: var(--background-color);
+}
+.head h1{
+    color: var(--color);
+    margin-left: 37rem;
+}
+.head h2{
+    color: var(--color);
+    margin-left: 43rem;
+}
+.sec1 img{
+    width: 50rem;
+    height: 40rem;
+    margin-left: 20rem;
+}
+.sec2{
+    padding: 5%;
+}
+.sec2 img{
+    display: inline-block;
+    width: 40vw;
+    height: 50vh;
+    margin-left: 30rem;
+}
+.sec2 p{
+    color: var(--color);
+    font-size: 1.4rem;
+    position: absolute; 
+    display: inline-block;
+    margin-left: 8rem;
+    margin-top: 4rem;
+    width: 50vh;
+}
+.about1 h1{
+    color: var(--color);
+    margin-left: 40rem;
+}
+.about2 h2{
+    color: var(--color);
+    margin-left: 35rem;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+.about2 img{
+    margin-left: 5rem;
+    display: inline-block;
+    height: 40vh;
+    width: 30vw;
+    padding: 0.5%;
+    position: relative;
+}
+.about2 p{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    display: inline-block;
+    color: var(--color);
+    position: absolute;
+    margin-top: 7rem;
+}
+.contact1 h1{
+    color: var(--color);
+    margin-left: 40rem;
+}
+.contact1 h2{
+    color: var(--color);
+    margin-left: 37rem;
+    padding: 1%;
+}
+.contact2 img{
+    padding: 2%;
+    margin-left: 18rem;
+    width: 50rem;
+    height: 40rem;
+}
+.contact2 p{
+    font-size: 1.5rem;
+    color: var(--color);
+    margin-left: 30rem;
+    padding: 0.9%;
+}
+.contact3 a{
+    display: inline;
+    font-size: 1rem;
+    color: var(--color);
+    margin-left: 20rem;
+}
+.paginas a:hover{
+    background-color: white;
+    color: black;
+    border: solid 0.5px var(--color);
+}
