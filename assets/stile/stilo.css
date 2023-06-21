@@ -140,15 +140,10 @@ nav a{
     align-items: center;
     margin-bottom: 3rem;
 }
-.encabezado{
-    color: var(--color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-}
-.encabezado h1{
+#tabla,h3,h2{
     font-size: xx-large;
+    padding: 0.5rem;
+    color: var(--color);
 }
 table,tr,th,td {
     font-size: xx-large;
@@ -156,10 +151,6 @@ table,tr,th,td {
     border-collapse: collapse;
     color: var(--color);
     padding: 2rem;
-}
-#cuerpo div{
-    color: var(--color);
-    display: flex;
 }
 #cuerpo img{
     height: 20rem;
@@ -169,4 +160,7 @@ table,tr,th,td {
 #cuerpo>div {
     font-size: x-large;
     align-items: center;
+    color: var(--color);
+    display: flex;
+    gap: 5rem;
 }
