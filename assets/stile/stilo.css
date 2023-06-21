@@ -11,119 +11,162 @@
 .logo-navegador{
     display: flex;
     justify-content: space-between;
+    background-color: var(--background-color);
 }
-/* nav{
+.logo-navegador img {
+    height: 5vh;
+    background-color: var(--background-color);
+}
+nav{
     font-size: 1.3rem;
     background-color: var(--background-color);
     width: 100%;
     height: 5vh;
     display: flex;
-} */
-/* nav img{
-    width: 5vw;
-    height: 5vh;
-    background-color: var(--background-color);
-    display: flex;
-} */
-/* nav a{
+}
+nav a{
+    margin-left: 1rem;
     color: var(--color);
     font-style: oblique;
     background-color: var(--background-color);
     text-decoration: none;
-    display: flex;
-} */
+}
 .piedep p{
     text-align: center;
     font-size: 1.1rem;
     color: var(--color);
     background-color: var(--background-color);
 }
-.head h1{
+.primimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: var(--color);
-    margin-left: 37rem;
 }
-.head h2{
-    color: var(--color);
-    margin-left: 43rem;
-}
-.sec1 img{
+.primimg img{
     width: 50rem;
-    height: 40rem;
-    margin-left: 20rem;
+    height: 35rem;
+    border: solid 2px var(--color) ;
 }
 .sec2{
-    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px var(--color);
 }
 .sec2 img{
-    display: inline-block;
     width: 40vw;
     height: 50vh;
-    margin-left: 30rem;
+    padding: 0.4rem;
 }
 .sec2 p{
     color: var(--color);
     font-size: 1.4rem;
-    position: absolute; 
-    display: inline-block;
-    margin-left: 8rem;
-    margin-top: 4rem;
-    width: 50vh;
+    padding: 10rem;
 }
 .about1 h1{
     color: var(--color);
-    margin-left: 40rem;
+    display: flex;
+    justify-content: center;
 }
 .about2 h2{
     color: var(--color);
-    margin-left: 35rem;
+    display: flex;
+    justify-content: center;
     padding-bottom: 5%;
     padding-top: 2%;
 }
+.about2 {
+    display: flex;
+    flex-direction: column;
+}
 .about2 img{
-    margin-left: 5rem;
-    display: inline-block;
     height: 40vh;
     width: 30vw;
     padding: 0.5%;
-    position: relative;
 }
 .about2 p{
     font-size: 1.5rem;
-    margin-left: 2rem;
-    display: inline-block;
     color: var(--color);
-    position: absolute;
-    margin-top: 7rem;
+}
+.about2 div{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
 }
 .contact1 h1{
     color: var(--color);
-    margin-left: 40rem;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 40rem; */
 }
 .contact1 h2{
     color: var(--color);
     margin-left: 37rem;
     padding: 1%;
 }
+.contact2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .contact2 img{
     padding: 2%;
-    margin-left: 18rem;
     width: 50rem;
     height: 40rem;
 }
 .contact2 p{
     font-size: 1.5rem;
     color: var(--color);
-    margin-left: 30rem;
     padding: 0.9%;
 }
+.contact3 {
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+}
 .contact3 a{
-    display: inline;
     font-size: 1rem;
     color: var(--color);
-    margin-left: 20rem;
 }
-.paginas a:hover{
-    background-color: white;
-    color: black;
+.logo-navegador a:hover{
+    background-color: rgb(11, 6, 6);
+    font-weight: 800;
     border: solid 0.5px var(--color);
+    border-radius: 25%;
+}
+#tabla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.encabezado{
+    color: var(--color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.encabezado h1{
+    font-size: xx-large;
+}
+table,tr,th,td {
+    font-size: xx-large;
+    border: 2px solid rgb(106, 228, 237);
+    border-collapse: collapse;
+    color: var(--color);
+    padding: 2rem;
+}
+#cuerpo div{
+    color: var(--color);
+    display: flex;
+}
+#cuerpo img{
+    height: 20rem;
+    width: 35rem;
+    padding: 0.7rem;
+}
+#cuerpo>div {
+    font-size: x-large;
+    align-items: center;
 }
